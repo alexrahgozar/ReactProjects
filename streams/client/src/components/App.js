@@ -11,7 +11,16 @@ import BrowserHistory from "../BrowserHistory";
 
 const App = () => {
   return (
-    <div className="ui container">
+    <div
+      style={{
+        marginTop: "5%",
+        padding: "25px",
+        border: "2px solid black",
+        borderRadius: "5px",
+        backgroundColor: "#dfe3ee"
+      }}
+      className="ui container"
+    >
       <Router history={BrowserHistory}>
         <div>
           <Header />
