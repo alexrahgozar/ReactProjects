@@ -15,14 +15,20 @@ class SearchBar extends React.Component {
   };
   render() {
     return (
-      <div className="search-bar ui segment">
+      <div
+        style={{ marginTop: "4%", backgroundColor: "#ff0000" }}
+        className="search-bar ui segment"
+      >
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
-            <label>Video Search</label>
+            <label style={{ fontSize: "20px", fontFamily: "sansSerif" }}>
+              Video Search
+            </label>
             <input
               type="text"
               value={this.state.userInput}
               onChange={this.onInputChange}
+              style={{ backgroundColor: "#ffffff", fontSize: "17px" }}
             />
           </div>
         </form>

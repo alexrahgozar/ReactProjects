@@ -9,7 +9,7 @@ const getTime = () => {
 
 const App = () => {
   return (
-    <div className="ui container comments">
+    <div style={{ marginTop: "5%" }} className="ui container comments">
       <ApprovalCard>
         <CommentDetail
           name="Alex"
