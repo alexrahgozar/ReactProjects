@@ -11,6 +11,11 @@ class SongListClick extends Component {
             <button
               onClick={() => this.props.mySelectSong(song)}
               className="ui button primary"
+              style={{
+                backgroundColor: "black",
+                color: "red",
+                fontSize: "15px"
+              }}
             >
               Select Song
             </button>
